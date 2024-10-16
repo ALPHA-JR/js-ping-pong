@@ -38,7 +38,7 @@ function draw() {
     verificaColisaoRaquete(xRaquete, yRaquete);
     verificaColisaoRaquete(xRaqueteOponente, yRaqueteOponente);
     mostraRaquete(xRaqueteOponente, yRaqueteOponente);
-    //movimentaRaqueteOponente();
+    movimentaRaqueteOponente();
     incluiPlacar();
     marcaPonto();
 }
@@ -61,7 +61,7 @@ function verificaColisaoBorda() {
 }
 
 function mostraRaquete(x,y) {
-   square(x, y, raqueteComprimento, raqueteAltura);
+   rect(x, y, raqueteComprimento, raqueteAltura);
 }
 
 function movimentaMinhaRaquete() {
