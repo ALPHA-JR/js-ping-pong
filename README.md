@@ -1,1 +1,1 @@
-# js-shop-pong
+# js-pong
